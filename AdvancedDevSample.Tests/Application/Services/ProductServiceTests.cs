@@ -75,7 +75,7 @@ namespace AdvancedDevSample.Tests.Application.Services
             var repo = new FakeProductRepository(product);
             var service = new ProductService(repo);
 
-            var request = new ChangeLibelleRequest { NewLibelle = "Thomas le comédien" };
+            var request = new ChangeLibelleRequest { NewLibelle = libelle };
             service.ChangeProductLibelle(product.Id, request);
 
             Assert.Equal(libelle , product.Libelle);
