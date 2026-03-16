@@ -52,30 +52,30 @@ namespace AdvancedDevSample.Tests.Application.Services
         public void ChangeProductLibelle_Should_Save_Product_When_Libelle_Is_Valid() { 
         
             var product = new Product();
-            product.ChangeLibelle(" Bob le bricoleur ");
+            product.ChangeLibelle("Bob le bricoleur ");
 
             var repo = new FakeProductRepository(product);
             var service = new ProductService(repo);
 
-            var request = new ChangeLibelleRequest { NewLibelle = " Thomas le comédien" };
+            var request = new ChangeLibelleRequest { NewLibelle = "Thomas le comédien" };
             service.ChangeProductLibelle(product.Id, request);
 
-            Assert.Equal(" Thomas le comédien", product.Libelle );
+            Assert.Equal("Thomas le comédien", product.Libelle );
             Assert.True(repo.WasSaved);
         }
 
         [Theory]
-        [InlineData(" Jordan le basketeur ")]
-        [InlineData(" Kamel le CEO ")]
+        [InlineData("Jordan le basketeur ")]
+        [InlineData("Kamel le CEO ")]
         public void ChangeProductLibelle_Should_Save_Product_When_Libelle_Is_Valided(string libelle) {
             var product = new Product();
 
-            product.ChangeLibelle(" Bob le bricoleur ");
+            product.ChangeLibelle("Bob le bricoleur ");
 
             var repo = new FakeProductRepository(product);
             var service = new ProductService(repo);
 
-            var request = new ChangeLibelleRequest { NewLibelle = " Thomas le comédien" };
+            var request = new ChangeLibelleRequest { NewLibelle = "Thomas le comédien" };
             service.ChangeProductLibelle(product.Id, request);
 
             Assert.Equal(libelle , product.Libelle);
