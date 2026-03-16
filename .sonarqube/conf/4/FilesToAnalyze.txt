@@ -1,0 +1,16 @@
+﻿C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\API\Contrat\ProductControllerContractTests.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\API\E2E\ProductPriceEndToEndTests.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\API\Fakes\FakeProductService.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\API\Integration\CustomWebApplicationFactory.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\API\Integration\InMemoryProductRepository.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\API\Integration\ProductsControllerIntegrationTests.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\API\TestServerFactory.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\Application\Fakes\FakeProductRepository.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\Application\Services\ProductServiceTests.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Tests\Domain\Entities\ProductTests.cs
+C:\Users\David\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\David\.nuget\packages\microsoft.testplatform.testhost\17.8.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\David\.nuget\packages\microsoft.testplatform.testhost\17.8.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\David\.nuget\packages\xunit.runner.visualstudio\2.5.3\build\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\David\.nuget\packages\xunit.runner.visualstudio\2.5.3\build\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\David\.nuget\packages\xunit.runner.visualstudio\2.5.3\build\net6.0\xunit.runner.utility.netcoreapp10.dll

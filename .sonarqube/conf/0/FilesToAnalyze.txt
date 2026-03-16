@@ -1,0 +1,4 @@
+﻿C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Domain\Entities\Product.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Domain\Exceptions\DomainException.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Domain\Interfaces\Products\IProductRepository.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Domain\Pricing\PrincingType.cs

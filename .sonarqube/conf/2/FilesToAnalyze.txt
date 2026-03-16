@@ -1,0 +1,4 @@
+﻿C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Infrastructure\DbContext\AppDbContext.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Infrastructure\Entities\ProductEntity.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Infrastructure\Exceptions\InfrastructureException.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Infrastructure\Repositories\EfProductRepository.cs

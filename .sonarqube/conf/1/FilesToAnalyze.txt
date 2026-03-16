@@ -1,0 +1,6 @@
+﻿C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Application\DTOs\ChangePriceRequest.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Application\DTOs\PricingContext.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Application\DTOs\ProductResponse.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Application\Exceptions\ApplicationServiceException.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Application\Interface\IProductService.cs
+C:\Users\David\Desktop\Cours 3il\Qualite Logicielle\AdvancedDevSampleSimple\AdvancedDevSampleSimple\AdvancedDevSample.Application\Services\ProductService.cs
