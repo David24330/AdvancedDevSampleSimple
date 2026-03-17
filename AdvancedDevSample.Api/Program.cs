@@ -12,21 +12,6 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
-//builder.Services.AddSwaggerGen(options =>
-//{
-//    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-//    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-
-//    options.IncludeXmlComments(xmlPath);
-//});
-
-//builder.Services.AddSwaggerGen(options =>
-//{
-//    var basePath = AppContext.BaseDirectory;
-//    options.IncludeXmlComments(Path.Combine(basePath, "AdvancedDevSample.Api.xml"));
-//    options.IncludeXmlComments(Path.Combine(basePath, "AdvancedDevSample.Application.xml"));
-//});
-
 builder.Services.AddSwaggerGen(options =>
 {
     var basePath = AppContext.BaseDirectory;

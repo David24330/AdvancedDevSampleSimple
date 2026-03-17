@@ -39,10 +39,10 @@ namespace AdvancedDevSample.Application.Services
             return _repo.GetById(id)
                 ?? throw new ApplicationServiceException("Produit introuvable",System.Net.HttpStatusCode.NotFound);
         }
-        public void ChangePrice(Guid id, decimal prix)
+        public void ChangePrice(Guid id, decimal newPrice)
         {
             var product = GetProduct(id);
-            product.ChangePrice(prix);
+            product.ChangePrice(newPrice);
             _repo.Save(product);
         }
 
