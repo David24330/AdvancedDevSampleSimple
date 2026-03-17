@@ -51,7 +51,7 @@ namespace AdvancedDevSample.Application.Services
             var result = new ProductResponse
             {
                 Id = productId,
-                Price = 10
+                Price = GetProduct(productId).Price
             };
 
             return result;

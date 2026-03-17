@@ -35,23 +35,20 @@ namespace AdvancedDevSample.Tests.API.E2E
 
             // 🔹 WHEN – l’utilisateur change le prix
             var changeRequest = new ChangePriceRequest { NewPrice = 20 };
-            var updateResponse = await _client.PutAsJsonAsync(
-                $"/api/productasync/{product.Id}/price",
-                changeRequest
-            );
+            var updateResponse = await _client.PutAsJsonAsync($"/api/products/{product.Id}/price", changeRequest
+, cancellationToken: TestContext.Current.CancellationToken);
 
             // 🔹 THEN – l’action réussit
             Assert.Equal(HttpStatusCode.NoContent, updateResponse.StatusCode);
 
             // 🔹 AND – l’utilisateur récupère le produit
-            var getResponse = await _client.GetAsync(
-                $"/api/productasync/{product.Id}"
-            );
+            var getResponse = await _client.GetAsync($"/api/products/{product.Id}"
+, TestContext.Current.CancellationToken);
 
             getResponse.EnsureSuccessStatusCode();
 
-            var json = await getResponse.Content.ReadAsStringAsync();
-            var dto = JsonSerializer.Deserialize<ProductResponse>(json);
+            var json = await getResponse.Content.ReadAsStringAsync(TestContext.Current.CancellationToken);
+            var dto = await getResponse.Content.ReadFromJsonAsync<ProductResponse>(cancellationToken: TestContext.Current.CancellationToken);
 
             // 🔹 THEN – le prix visible est bien modifié
             Assert.Equal(20, dto!.Price);

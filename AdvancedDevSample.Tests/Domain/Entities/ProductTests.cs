@@ -33,7 +33,7 @@ namespace AdvancedDevSample.Tests.Domain.Entities
             // Act & Assert
             var exception = Assert.Throws<DomainException>(() => product.ChangePrice(20));
 
-            Assert.Equal("Impossible de modifier un produit inactif.", exception.Message);
+            Assert.Equal("Produit inactif.", exception.Message);
         }
 
         [Fact]
